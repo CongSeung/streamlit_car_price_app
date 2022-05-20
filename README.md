@@ -1,3 +1,5 @@
 # streamlit_car_price_app
 
-test test test
+자동차 구매 금액을 예측하는 인공지능을 개발하고
+
+이를 스트림릿 대시보드로 앱으로 개발하는 프로젝트
