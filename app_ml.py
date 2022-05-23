@@ -1,8 +1,9 @@
 from tkinter import Y
+from unittest import skip
 import streamlit as st
 import joblib
 import numpy as np
-import  as sk
+import sklearn as sk
 
 def run_ml():
     st.subheader('자동차 구매 가능 금액 예측')
@@ -46,7 +47,7 @@ def run_ml():
         st.write('이 사용자의 자동차 구매 가능 금액은 ' + str(result) + '$ 입니다.')
 
         ### 버전확인하기 ###
-        print(sklearn.__version__)
+        print(sk.__version__)
 
 
 
