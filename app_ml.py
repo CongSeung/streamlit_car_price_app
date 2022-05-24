@@ -3,7 +3,9 @@ from unittest import skip
 import streamlit as st
 import joblib
 import numpy as np
+
 import sklearn as sk
+
 
 def run_ml():
     st.subheader('자동차 구매 가능 금액 예측')
